@@ -3,6 +3,7 @@ body,
 #cover{
   height: 100%;
 }
+
 .bg-lightorange{
   background-color: #f3c81d;
 }
@@ -85,6 +86,7 @@ a:hover{
   }
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link {
     padding: 15px;
+    font-weight: 300;
   }
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
     color: #deb201;
@@ -115,7 +117,7 @@ a:hover{
 
 .sub-panel{
   padding-top: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 
@@ -188,4 +190,5 @@ hr{
 
 .mysocial{
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
