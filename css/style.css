@@ -93,21 +93,28 @@ a:hover{
   }
 }
 
-#cover, #about{
+#cover, #about, #skill{
   text-align: center;
   align-items: center;
   height: 100%;
 }
 
-#cover{
-  background: #222 url("../img/bg1.jpg") no-repeat;
+#cover, #skill{
   background-size: cover;
   background-attachment: fixed;
   color: white;
   /* display: flex; */
 }
 
-#cover-caption{
+/* #cover{
+  background: #222 url("../img/bg1.jpg") no-repeat;
+}
+
+#skill{
+  background: #222 url("../img/bg2.jpg") no-repeat;
+  background-size: cover;
+} */
+#cover-caption, #skill-caption{
   background: rgba(0,0,0,.3);
   height: 100%;
 }
