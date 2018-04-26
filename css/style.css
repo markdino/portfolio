@@ -2,7 +2,17 @@ html,
 body{
   height: 100%;
 }
+.bg-lightorange{
+  background-color: #f3c81d;
+}
 
+a{
+  color: #ecb201;
+  font-weight:500;
+}
+a:hover{
+  color: #f3c81d;
+}
 #mainNav {
   background-color: #222;
 }
@@ -76,7 +86,7 @@ body{
     padding: 15px;
   }
   #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #mainNav .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
-    color: #0A8FD5;
+    color: #deb201;
     border-radius: 0;
     border-radius: 5px;
     background-color: white;
@@ -172,4 +182,9 @@ hr{
 .scroll-down .btn:focus, .scroll-down .btn:active {
   -webkit-box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5) !important;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5) !important;
+}
+
+
+.mysocial{
+  font-size: 2rem;
 }
