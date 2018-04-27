@@ -192,3 +192,7 @@ hr{
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
+.text-shadow{
+  text-shadow: 2px 2px 7px black;
+}
