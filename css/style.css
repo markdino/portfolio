@@ -197,6 +197,16 @@ hr{
   text-shadow: 2px 2px 5px black;
 }
 
-#skill p, #skill li{
+/* #skill p, #skill li{
   font-weight: 500;
+} */
+
+#col-about-skill i{
+  font-size: 6rem;
+}
+
+.box-trans{
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 10px;
 }
