@@ -205,6 +205,11 @@ hr{
   font-size: 6rem;
 }
 
+#col-about-skill div div{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 .box-trans{
   background: rgba(0, 0, 0, 0.2);
   padding: 2rem;
