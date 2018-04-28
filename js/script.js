@@ -49,6 +49,12 @@ $(document).ready (function() {
         $("body, html").scrollTo(this.hash, this.hash);
     });
 
-    
+    //about link
+    $("#about p a").click (function(event) {
+        event.preventDefault();
+        $("body, html").scrollTo(this.hash, this.hash);
+    });
+
+
 
 });
