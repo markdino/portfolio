@@ -215,3 +215,22 @@ hr{
   padding: 2rem;
   border-radius: 10px;
 }
+
+.portfolio-menu ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px 15px;
+  border: 1px solid #f3c81d;
+  margin: 0px;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.portfolio-menu ul li:hover{
+  background-color: #f3c81d;
+  color: white;
+}
