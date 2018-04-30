@@ -242,9 +242,11 @@ hr{
 .portfolio-item .item{
   float: left;
   /* margin-bottom: 10px; */
-  border: 2px solid #f3c81d;
+  margin-bottom: 20px;
+
 }
 .img-full{
   width: 100%;
   height: 280px;
+  border: 2px solid #f3c81d;
 }
