@@ -267,10 +267,10 @@
         <br><br>
         <div class="portfolio-menu">
           <ul>
-            <li class="active button" data-filter="all">All</li>
-            <li class="button" data-filter=".web">Website</li>
-            <li class="button" data-filter=".app">Application</li>
-            <li class="button" data-filter=".game">Games</li>
+            <li data-filter="*" class="active">All</li>
+            <li data-filter=".web">Website</li>
+            <li data-filter=".app">Application</li>
+            <li data-filter=".game">Games</li>
           </ul>
         </div>
         <div class="portfolio-item">
@@ -309,7 +309,6 @@
   <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-
   <script>
     $('.portfolio-item').isotope({
       itemSelector: '.item',
