@@ -219,7 +219,7 @@ hr{
 .portfolio-menu ul li{
   display: inline-block;
   list-style: none;
-  padding: 10px 15px;
+  padding: 8px 10px;
   border: 1px solid #f3c81d;
   margin: 0px;
   cursor: pointer;
@@ -237,7 +237,6 @@ hr{
 
 .portfolio-item .item{
   float: left;
-  /* margin-bottom: 20px; */
   background-size: contain;
   border: 2px solid #f3c81d;
   background-position: center;
@@ -257,7 +256,6 @@ hr{
   height: 100%;
   background: rgba(0,0,0,0.5);
   width: 100%;
-  /* margin: 0px; */
   color: white;
   opacity: 0;
 }
