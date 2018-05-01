@@ -254,11 +254,15 @@ hr{
   padding-top: 50%;
   margin-bottom: auto;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.3);
   width: 100%;
   color: white;
   opacity: 0;
 }
 .item-detail:hover{
   opacity: 1;
+}
+.item-detail-caption{
+  background: rgba(0,0,0,0.5);
+  padding-bottom: 20px;
 }
