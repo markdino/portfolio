@@ -267,7 +267,7 @@
         <br><br>
         <div class="portfolio-menu">
           <ul>
-            <li class="active" data-filter="">All</li>
+            <li data-filter="*" class="active">All</li>
             <li data-filter=".web">Website</li>
             <li data-filter=".app">Application</li>
             <li data-filter=".game">Games</li>
@@ -309,6 +309,25 @@
   <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+  <script>
+    $('.portfolio-item').isotope({
+      itemSelector: '.item',
+      layoutMode: 'fitRows'
+    });
+
+    $('.portfolio-menu ul li').click(function(){
+      $('.portfolio-menu ul li').removeClass('active');
+      $(this).addClass('active');
+
+      var selector = $(this).attr('data-filter');
+      $('.portfolio-item').isotope({
+        filter: selector
+      });
+      return false;
+    });
+
+  </script>
+
 
 </body>
 </html>
