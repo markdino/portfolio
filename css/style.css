@@ -243,7 +243,7 @@ hr{
   background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
-  display: flex;
+  overflow: hidden;
   height: 280px;
 }
 .portfolio-item .item:hover{
@@ -251,14 +251,24 @@ hr{
 
 }
 .item-detail{
-  padding-top: 50%;
+  padding-top: 60%;
   margin-bottom: auto;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.3);
   width: 100%;
   color: white;
   opacity: 0;
+
 }
 .item-detail:hover{
   opacity: 1;
+}
+.item-detail-caption{
+  background: rgba(0,0,0,0.6);
+  padding-bottom: 40%;
+}
+
+.item-detail-caption h5, .item-detail-caption p{
+  margin: 0px;
+  line-height: 1.3rem;
 }
