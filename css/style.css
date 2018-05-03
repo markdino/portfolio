@@ -96,13 +96,13 @@ a:hover{
   }
 }
 
-#cover, #about, #skill, #portfolio, #subscribe, #contact{
+#cover, #about, #skill, #portfolio, #subscribe, #contact, footer{
   text-align: center;
   align-items: center;
   /* height: 100%; */
 }
 
-#cover, #skill{
+#cover, #skill, footer{
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -297,4 +297,33 @@ hr{
 }
 .col-right{
   float: right;
+}
+
+footer{
+  background-position: bottom;
+}
+footer h3{
+  font-weight: 800;
+}
+footer p{
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+#footer-caption{
+  padding-top: 100px;
+  padding-bottom: 10px;
+  background: rgba(48,32,2,.7);
+  height: 100%;
+}
+
+.footer-social i{
+  margin: 80px 20px;
+  font-size: 2rem;
+  color: white;
+}
+.footer-social i:hover{
+  color: #f3c81d;
+}
+.foot-note p{
+  font-size: .8rem;
 }
