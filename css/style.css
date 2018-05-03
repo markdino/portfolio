@@ -216,7 +216,7 @@ hr{
   border-radius: 10px;
 }
 
-.portfolio-menu ul li{
+.portfolio-menu ul li, .btn-outline{
   display: inline-block;
   list-style: none;
   padding: 8px 10px;
@@ -230,7 +230,7 @@ hr{
   transition: all .5s ease;
 }
 
-.portfolio-menu ul li:hover, li.active{
+.portfolio-menu ul li:hover, li.active, .btn-outline:hover{
   background-color: #f3c81d;
   color: white;
 }
@@ -279,4 +279,22 @@ hr{
 
 .form-inline{
   display:block;
+}
+
+#contact .form-inline{
+  display: inline-block;
+}
+
+#contact input, #contact textarea{
+  width: 100%;
+  margin: 5px;
+}
+.btn-outline{
+  background-color: white;
+}
+.col-left{
+  float: left;
+}
+.col-right{
+  float: right;
 }
