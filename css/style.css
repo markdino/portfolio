@@ -96,7 +96,7 @@ a:hover{
   }
 }
 
-#cover, #about, #skill, #portfolio, #subscribe{
+#cover, #about, #skill, #portfolio, #subscribe, #contact{
   text-align: center;
   align-items: center;
   /* height: 100%; */
