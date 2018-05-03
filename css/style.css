@@ -283,11 +283,19 @@ hr{
 
 #contact .form-inline{
   display: inline-block;
+  margin-bottom: 40px;
 }
 
-#contact input, #contact textarea{
+#contact .form-control{
+  border: 1px solid #f3c81d;
+}
+#contact div input, #contact div textarea{
   width: 100%;
   margin: 5px;
+}
+.btn-submit{
+  width: 30%;
+  float: right;
 }
 .btn-outline{
   background-color: white;
