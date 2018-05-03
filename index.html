@@ -265,7 +265,7 @@
         <h1>My Portfolio</h1>
         <hr class="colored"><hr class="colored">
         <br><br>
-        <div class="portfolio-menu btn-group" role="grou">
+        <div class="portfolio-menu btn-group" role="group">
           <ul>
             <li data-filter="*" class="active btn">All</li>
             <li data-filter=".web" class="btn">Website</li>
@@ -364,16 +364,17 @@
         <h3 class="text-uppercase"><strong>Subscribe To My Newsletter</strong></h3>
         <hr class="colored"><hr class="colored">
         <br><br>
+
         <form action="" class="form-inline">
           <div class="input-group-lg">
             <label for="" class="sr-only">Name</label>
             <input type="text" class="form-control form-control-lg" placeholder="Name">
             <label for="" class="sr-only">Email</label>
             <input type="text" class="form-control form-control-lg" placeholder="juan@sample.com">
-            <button type="button" role="button" class="btn btn-lg btn-warning text-uppercase">Subscribe</button>
+            <input type="submit" value="Subscribe" class="btn btn-lg btn-warning text-uppercase">
           </div>
-
         </form>
+
       </div>
     </section>
   </section>
@@ -384,8 +385,26 @@
         <hr class="colored">
         <hr class="colored">
         <br>
-        <br>
+        <p>Please tell me about your next project and I will let you know what I can do to help you.</p>
 
+        <form action="" class="form-inline">
+          <div class="input-group-lg">
+            <div class="col-md-5 col-left">
+              <label for="" class="sr-only">Name</label>
+              <input type="text" class="form-control" placeholder="Name">
+              <label for="" class="sr-only">Email</label>
+              <input type="text" class="form-control" placeholder="juan@sample.com">
+              <label for="" class="sr-only">Phone number</label>
+              <input type="text" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="col-md-7 col-right">
+              <label for="" class="sr-only"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+              <input type="submit" value="Send" class="btn btn-outline">
+            </div>
+
+          </div>
+        </form>
       </div>
     </section>
   </section>
