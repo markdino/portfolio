@@ -96,7 +96,7 @@ a:hover{
   }
 }
 
-#cover, #about, #skill, #portfolio{
+#cover, #about, #skill, #portfolio, #subscribe{
   text-align: center;
   align-items: center;
   /* height: 100%; */
@@ -271,4 +271,12 @@ hr{
 .item-detail-caption h5, .item-detail-caption p{
   margin: 0px;
   line-height: 1.3rem;
+}
+.darker{
+  background-color: #222;
+  color: white;
+}
+
+.form-inline{
+  display:block;
 }
