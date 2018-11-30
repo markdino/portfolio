@@ -221,7 +221,7 @@ hr{
   list-style: none;
   padding: 8px 10px;
   border: 1px solid #f3c81d;
-  margin: 0px;
+  margin: 3px 5px;
   cursor: pointer;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
